@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	background: #333;
+}
+
+.header {
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.main-flex-container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	display:flex;
+	display:flexbox;
+	display: -ms-flexbox;
+  	display: -webkit-flex;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+	flex-direction: row;
+	-ms-flex-direction: row;
+    -webkit-flex-direction: row;
+	justify-content: center;
+	-webkit-justify-content: center;
+	border: 2px solid yellow;
+}
+
+/*@media (min-width:360px) {
+	.main-flex-container {
+	justify-content: space-around;
+	}
+}*/
+/*@media (min-width:768px){
+	.main-flex-container {
+	justify-content: flex-start;
+	}
+}*/
+
+
+.workout-program {
+	width:165px;
+	margin: 2px;
+}
+
+
+@media (min-width: 526px) {
+	.workout-program {
+		width: 218px;
+	}
+}
+ 
+@media (min-width: 667px) {
+	.workout-program {
+		width: 157px;
+	}
+}
+
+@media (min-width: 768px) {
+	.workout-program {
+		width: 182px;
+	}
+}
+
+@media (min-width: 888px) {
+	.workout-program {
+		width: 210px;
+	}
+}
+
+@media (min-width: 960px) {
+	.workout-program {
+		width: 180px;
+	}
+}
+@media (min-width: 960px) {
+	.workout-program {
+		width: 184px;
+		/*margin: 4px 2%;*/
+	}
+	/*.workout-program:nth-child(4n+1) {
+    	margin-left: 0;
+  }*/
+  	/*.workout-program:nth-child(4n) {
+    	margin-right: 0;
+  }*/
+}
+
+@media (min-width:1350px){
+	.workout-program {
+		width:187px;
+	}
+}
+/*
+@media (min-width: 667px) {
+	.workout-program {
+		width: 140px;
+		margin: 4px 2%;
+	}
+	.workout-program:nth-child(4n+1) {
+    	margin-left: 0;
+  }
+  	.workout-program:nth-child(4n) {
+    	margin-right: 0;
+  }
+}*/
+
+img {
+	width: 100%;
+	height: auto;
+	display:block;
+	margin: 0 auto;
+}
+
